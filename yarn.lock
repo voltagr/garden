@@ -5339,7 +5339,7 @@ __metadata:
     tailwindcss: ^3.4.1
     typescript: ^5
     use-clipboard-copy: ^0.2.0
-    uuid: ^10.0.0
+    uuid: ^11.1.0
     zod: ^3.23.8
   languageName: unknown
   linkType: soft
@@ -5406,7 +5406,7 @@ __metadata:
     styled-components: ^6.0.7
     tailwindcss: ^3.1.8
     typescript: ^4.7.4
-    uuid: ^9.0.1
+    uuid: ^11.1.0
     web-vitals: ^3.4.0
   languageName: unknown
   linkType: soft
@@ -29711,12 +29711,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^10.0.0":
-  version: 10.0.0
-  resolution: "uuid@npm:10.0.0"
+"uuid@npm:^11.1.0":
+  version: 11.1.0
+  resolution: "uuid@npm:11.1.0"
   bin:
-    uuid: dist/bin/uuid
-  checksum: 4b81611ade2885d2313ddd8dc865d93d8dccc13ddf901745edca8f86d99bc46d7a330d678e7532e7ebf93ce616679fb19b2e3568873ac0c14c999032acb25869
+    uuid: dist/esm/bin/uuid
+  checksum: 840f19758543c4631e58a29439e51b5b669d5f34b4dd2700b6a1d15c5708c7a6e0c3e2c8c4a2eae761a3a7caa7e9884d00c86c02622ba91137bd3deade6b4b4a
   languageName: node
   linkType: hard
 
@@ -29729,7 +29729,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^9.0.0, uuid@npm:^9.0.1":
+"uuid@npm:^9.0.0":
   version: 9.0.1
   resolution: "uuid@npm:9.0.1"
   bin:
