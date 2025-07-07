@@ -53,13 +53,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/cli@npm:^7.12.10":
-  version: 7.24.7
-  resolution: "@babel/cli@npm:7.24.7"
+"@babel/cli@npm:^7.28.0":
+  version: 7.28.0
+  resolution: "@babel/cli@npm:7.28.0"
   dependencies:
-    "@jridgewell/trace-mapping": ^0.3.25
+    "@jridgewell/trace-mapping": ^0.3.28
     "@nicolo-ribaudo/chokidar-2": 2.1.8-no-fsevents.3
-    chokidar: ^3.4.0
+    chokidar: ^3.6.0
     commander: ^6.2.0
     convert-source-map: ^2.0.0
     fs-readdir-recursive: ^1.1.0
@@ -76,7 +76,7 @@ __metadata:
   bin:
     babel: ./bin/babel.js
     babel-external-helpers: ./bin/babel-external-helpers.js
-  checksum: 40dfde8062de913dc5bb1c65a4d4e88ec2c438f16387c5552b1f8b0524f8af454c3b7bf12364ca0da8509c5edafdabc1527a939587678dc7825659c38d357c1d
+  checksum: ef0aaa87fc7c1be4be3ff385399fedb2f5655e0e00d9918e38a7bdfd11114a884893a18233a2cb7b6aeb79e81e2955ef28e88a372ec664df24a7ef2964629985
   languageName: node
   linkType: hard
 
@@ -3687,6 +3687,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jridgewell/trace-mapping@npm:^0.3.28":
+  version: 0.3.29
+  resolution: "@jridgewell/trace-mapping@npm:0.3.29"
+  dependencies:
+    "@jridgewell/resolve-uri": ^3.1.0
+    "@jridgewell/sourcemap-codec": ^1.4.14
+  checksum: 5e92eeafa5131a4f6b7122063833d657f885cb581c812da54f705d7a599ff36a75a4a093a83b0f6c7e95642f5772dd94753f696915e8afea082237abf7423ca3
+  languageName: node
+  linkType: hard
+
 "@leichtgewicht/ip-codec@npm:^2.0.1":
   version: 2.0.5
   resolution: "@leichtgewicht/ip-codec@npm:2.0.5"
@@ -5279,7 +5289,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@revertdotdev/js@workspace:packages/js"
   dependencies:
-    "@babel/cli": ^7.12.10
+    "@babel/cli": ^7.28.0
     "@babel/core": ^7.24.7
     "@babel/plugin-proposal-class-properties": ^7.12.1
     "@babel/preset-env": ^7.12.11
@@ -12672,7 +12682,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.4.0, chokidar@npm:^3.4.1, chokidar@npm:^3.4.2, chokidar@npm:^3.5.1, chokidar@npm:^3.5.2, chokidar@npm:^3.5.3":
+"chokidar@npm:^3.4.1, chokidar@npm:^3.4.2, chokidar@npm:^3.5.1, chokidar@npm:^3.5.2, chokidar@npm:^3.5.3, chokidar@npm:^3.6.0":
   version: 3.6.0
   resolution: "chokidar@npm:3.6.0"
   dependencies:
